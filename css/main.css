@@ -1,0 +1,158 @@
+* {
+	font-family: Verdana;
+}
+a {
+	text-decoration: none;
+	color:  #7E8182;
+}
+a:hover {
+	text-decoration: none;
+	color:  #7E8182;
+}
+
+
+/*header*/
+header , .block-video {
+	background-color: #F8F8F8;
+}
+.logo {
+	text-align: center;
+}
+.logo a {
+	color: #7E8182;
+	font-size: 30px;
+	margin-top: 3%;
+}
+.nav {
+	text-align: center;
+}
+.nav ul {
+	margin-bottom: 0px;
+}
+.nav a {
+	display: inline-block;
+	list-style: none;
+	display: inline-block;
+	padding: 4%;
+	transition: all 0.5s ease;
+}
+.nav a:hover {
+	display: inline-block;
+	list-style: none;
+	display: inline-block;
+	padding: 4%;
+	background-color: #E7E7E7;
+	transition: all 0.5s ease;
+}
+	/*BANNER*/
+
+.banner {
+	background-color: transparent;
+	background-image: url(../img/home.jpg);
+	background-size: cover;
+}
+.banner-content {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+.large {
+	font-size:40px;
+	text-transform: uppercase;
+	color: white;
+}
+
+/*BOTON AZUL CON LINK*/
+
+.button a {
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	color: white;
+	background-color: #337AB7;
+	border-radius: 15px;
+	padding: 2%;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.7s ease;
+}
+.button a:hover {
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	color: #337AB7;
+	background-color: white;
+	border-radius: 15px;
+	padding: 2%;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.7s ease;
+}
+/*FIN BOTON AZUL*/
+
+/*block video*/
+.block-video h1{
+	text-align: center;
+	margin-top: 5%;
+}
+.text-block {
+	text-align: center;
+	padding-bottom: 5%;
+}
+.video-frame {
+	width: 100%;
+	height: 450px;
+	margin-bottom: 5%;
+}
+/*HACHATHON*/
+
+
+.hackathon {
+	background-color: #FFFF00;
+}
+.hackathon img {
+	padding: 5%;
+}
+.text-area {
+	padding: 5%;
+}
+.text-area h1 {
+	text-align: center;
+	padding-bottom: 2%;
+}
+.button-2 a {
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	color: white;
+	background-color: #337AB7;
+	border-radius: 15px;
+	padding: 2%;
+	width: 20%;
+	margin-right: auto;
+	transition: all 0.7s ease;
+}
+.button-2 a:hover {
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	color: #337AB7;
+	background-color: white;
+	border-radius: 15px;
+	padding: 2%;
+	width: 20%;
+	margin-right: auto;
+	transition: all 0.7s ease;
+}
+
+/*form area*/
+.block-form {
+	background-color: #FFFFFF;
+}
+.block-form img {
+	width: 100%;
+}
