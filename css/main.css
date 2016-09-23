@@ -103,7 +103,7 @@ header , .block-video {
 }
 .video-frame {
 	width: 100%;
-	height: 450px;
+	height: 400px;
 	margin-bottom: 5%;
 }
 /*HACHATHON*/
@@ -152,7 +152,40 @@ header , .block-video {
 /*form area*/
 .block-form {
 	background-color: #FFFFFF;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 .block-form img {
 	width: 100%;
+}
+.form-area {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.form-area h2 {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.form-area input {
+	margin-bottom: 3%;
+}
+.mensaje {
+	height: 100px;
+}
+
+/*footer*/
+footer {
+	background-color: #4497A3;
+	color: white;
+}
+footer a {
+	color: #FFEB6A;
+}
+footer a:hover {
+	color: #FFEB6A;
+}
+.copyright {
+	padding: 2%;
+	padding-left: 3%;
 }
